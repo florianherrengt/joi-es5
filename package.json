@@ -4,7 +4,7 @@
   "version": "8.0.5",
   "homepage": "https://github.com/hapijs/joi",
   "repository": "git://github.com/hapijs/joi",
-  "main": "lib/index.js",
+  "main": "lib/main.js",
   "keywords": [
     "hapi",
     "schema",
@@ -20,6 +20,9 @@
     "moment": "2.x.x"
   },
   "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-stage-0": "^6.5.0",
     "code": "2.x.x",
     "lab": "10.x.x",
     "markdown-toc": "0.12.x"
